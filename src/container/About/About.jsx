@@ -3,8 +3,6 @@ import { motion } from 'framer-motion'
 
 import './About.scss'
 import { AppWrap, MotionWrap } from '../../wrapper'
-
-import { images } from '../../constants'
 import { urlFor } from '../../client'
 import { client } from '../../client'
 

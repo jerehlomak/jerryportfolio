@@ -35,7 +35,7 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import profile1 from '../assets/Jay-profile.JPG';
-import profile2 from '../assets/Kim-profile.png'
+import profile2 from '../assets/Kim-profile.png';
 
 export default {
   profile2,

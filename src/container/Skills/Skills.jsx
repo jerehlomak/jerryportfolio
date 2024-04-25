@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { AppWrap, MotionWrap } from '../../wrapper'
-import { urlFor, client } from '../../client'
-import {Tooltip as ReactTooltip} from 'react-tooltip'
+import { client } from '../../client'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faCss3,
@@ -11,7 +10,6 @@ import {
   faJsSquare,
   faReact,
   faSass,
-  faNodeJs
 } from '@fortawesome/free-brands-svg-icons'
 
 import './Skills.scss'
@@ -36,7 +34,7 @@ const Skills = () => {
         setSkills(data)
         console.log(skills)
       })
-  }, [])
+  }, [skills, experience])
   return (
     <>
       <div className="app__skills">

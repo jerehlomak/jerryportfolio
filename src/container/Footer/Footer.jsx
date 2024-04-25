@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { toast } from 'react-toastify'
 
 import { images } from '../../constants'
 import { AppWrap, MotionWrap } from '../../wrapper'

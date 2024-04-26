@@ -19,8 +19,18 @@ const About = () => {
   return (
     <>
       <div className="app__about">
+        <div className='app__about-header'>
         <h2 className="head-text">
           About <span>Me</span>
+        </h2>
+        <div className="about-cmp app_flex">
+            <p className="p-text">
+              I’m an ambitious problem solver with a passion for online businesses, who would love to join a team of like-minded developers. I take responsibility for my personal development, I am continually evaluating and upgrading my skills so that I stay at the cutting edge of web development. I have proven myself by successfully completing projects for IT consultancies, web design agencies and IT departments. I have interest in technology, user experience, user interface design and providing web-based solutions.  
+            </p>           
+          </div>
+        </div>
+        <h2 className="head-text">
+          My <span>Services</span>
         </h2>
 
         <div className="app__profiles">

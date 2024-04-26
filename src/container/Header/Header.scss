@@ -33,7 +33,11 @@
     @media screen and (max-width: 450px) {
         padding: 6rem 1rem 2rem;
     }
+
+   
 }
+
+
 
 .app__header-info {
     flex: 0.65;
@@ -89,14 +93,7 @@
         }
     }
 
-    .about-cmp {
-        flex-direction: column;
-        margin-top: 2rem;
-        p {
-            width: 100%;
-            text-align: right;
-        }
-    }
+    
 
     span {
         font-size: 2.5rem;

@@ -2,7 +2,7 @@
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
-import { About, Footer, Header, Skills, Testimonial, Work } from './container'
+import { About, Footer, Header, Skills, Testimonial, Work, AboutMe } from './container'
 import { Navbar } from './components'
 import './App.scss'
 
@@ -13,6 +13,7 @@ const App = () => {
     <div className='app'>
       <Navbar />
       <Header />
+      {/* <AboutMe /> */}
       <About />
       <Work />
       <Skills />

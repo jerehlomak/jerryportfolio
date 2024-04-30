@@ -90,6 +90,18 @@ const Skills = () => {
                 </div>
 
                 <motion.div className='app__skills-exp-works'>
+                  {/* <motion.div
+                        whileInView={{ opacity: [0, 1] }}
+                        transition={{ duration: 0.5 }}
+                        className='app_skills-exp-work'
+                        key={index}
+                        data-tip
+                        data-for=''
+                      >
+                        <h4 className='bold-text'>Education: Federal University of Petroleum Resources Effurun</h4>
+                        <p className='p-text'><span className='bold-text'>Year:</span> 2018 - 2023</p>
+                        <p className='p-text'><span className='bold-text'>Description:</span> Bachelor's Degree in Computer Science, FUPRE, Delta State</p>
+                      </motion.div> */}
                   {experience.works.map((work, index) => (
                     <>
                       <motion.div
@@ -104,14 +116,6 @@ const Skills = () => {
                         <p className='p-text'><span className='bold-text'>Company:</span> {work.company}</p>
                         <p className='p-text'><span className='bold-text'>Description:</span> {work.desc}</p>
                       </motion.div>
-                      {/* <ReactTooltip
-                        id={work.name}
-                        effect='solid'
-                        arrowColor='#fff'
-                        className='skills-tooltip'
-                      >
-                        {work.desc}
-                      </ReactTooltip> */}
                     </>
                   ))}
                 </motion.div>

@@ -21,7 +21,7 @@ const About = () => {
       <div className="app__about">
         <div className='app__about-header'>
         <h2 className="head-text">
-          About <span>Me</span>
+          About <span>Me</span> & My <span>Services</span>
         </h2>
         <div className="about-cmp app_flex">
             <p className="p-text">
@@ -29,9 +29,9 @@ const About = () => {
             </p>           
           </div>
         </div>
-        <h2 className="head-text">
+        {/* <h2 className="head-text">
           My <span>Services</span>
-        </h2>
+        </h2> */}
 
         <div className="app__profiles">
           {abouts.map((about, index) => (

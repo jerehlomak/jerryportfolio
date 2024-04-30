@@ -9,7 +9,8 @@ import {
   faHtml5,
   faJsSquare,
   faReact,
-  faSass,
+  faNodeJs,
+  faNode
 } from '@fortawesome/free-brands-svg-icons'
 
 import './Skills.scss'
@@ -60,7 +61,7 @@ const Skills = () => {
                         <FontAwesomeIcon icon={faGitAlt} color='#EC4D28' />
                     </div>
                     <div className="face6">
-                        <FontAwesomeIcon icon={faSass} color='#DD0031' />
+                        <FontAwesomeIcon icon={faNode} color='#7ab561' />
                     </div>
                 </div>
                 
@@ -75,6 +76,7 @@ const Skills = () => {
                     <li>Redux</li>
                     <li>Next Js</li>
                     <li>Typescript</li>
+                    <li>Node Js</li>
                   </ul>
                 </div>
           </motion.div>

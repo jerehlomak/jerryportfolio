@@ -53,14 +53,13 @@ const Header = () => {
             <p className="p-text">Backend Dev</p>
             <p className="p-text">Graphics Designer</p> 
           </div>
-          {/* <div className="about-cmp app_flex">
-            <p className="p-text">About Me: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero consequuntur similique natus necessitatibus quas alias, expedita repellat sint velit ipsam temporibus excepturi a repellendus distinctio autem culpa laborum quos! Ipsum.</p>           
-          </div> */}
+          
         </div>
         <div className='app__header-button'>
           <button><a href="#contact">Contact Me</a></button>
           <button onClick={downloadCVHandler}>Download CV</button>
         </div>
+        
       </motion.div>
       <motion.div
         whileInView={{ opacity: [0, 1] }}
@@ -76,28 +75,18 @@ const Header = () => {
           className='overlay_circle'
         />
       </motion.div>
-      {/* <motion.div
-        whileInView={{ X: [-100, 0], opacity: [0, 1] }}
-        transition={{ duration: 0.85 }}
-        className='app__header-info'
-      >
-      <div className="tag-cmp app_flex">
-            <p className="p-text">About Me: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero consequuntur similique natus necessitatibus quas alias, expedita repellat sint velit ipsam temporibus excepturi a repellendus distinctio autem culpa laborum quos! Ipsum.</p>
-            
-          </div>
-          </motion.div> */}
+  
       <motion.div
         variants={scaleVariants}
         whileInView={scaleVariants.whileInView}
         className='app__header-circles'
       >
-        
 
-        {[images.redux, images.react, images.sass].map((circle, index) => (
+         {[images.redux, images.react, images.sass].map((circle, index) => (
           <div className='circle-cmp app__flex' key={`circle-${index}`}>
             <img src={circle} alt='circle' />
           </div>
-        ))}
+        ))} 
       </motion.div>
     </div>
   )

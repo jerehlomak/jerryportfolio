@@ -9,7 +9,8 @@ import {
   faHtml5,
   faJsSquare,
   faReact,
-  faSass,
+  faNodeJs,
+  faNode
 } from '@fortawesome/free-brands-svg-icons'
 
 import './Skills.scss'
@@ -60,7 +61,7 @@ const Skills = () => {
                         <FontAwesomeIcon icon={faGitAlt} color='#EC4D28' />
                     </div>
                     <div className="face6">
-                        <FontAwesomeIcon icon={faSass} color='#DD0031' />
+                        <FontAwesomeIcon icon={faNode} color='#7ab561' />
                     </div>
                 </div>
                 
@@ -75,6 +76,7 @@ const Skills = () => {
                     <li>Redux</li>
                     <li>Next Js</li>
                     <li>Typescript</li>
+                    <li>Node Js</li>
                   </ul>
                 </div>
           </motion.div>
@@ -90,6 +92,18 @@ const Skills = () => {
                 </div>
 
                 <motion.div className='app__skills-exp-works'>
+                  {/* <motion.div
+                        whileInView={{ opacity: [0, 1] }}
+                        transition={{ duration: 0.5 }}
+                        className='app_skills-exp-work'
+                        key={index}
+                        data-tip
+                        data-for=''
+                      >
+                        <h4 className='bold-text'>Education: Federal University of Petroleum Resources Effurun</h4>
+                        <p className='p-text'><span className='bold-text'>Year:</span> 2018 - 2023</p>
+                        <p className='p-text'><span className='bold-text'>Description:</span> Bachelor's Degree in Computer Science, FUPRE, Delta State</p>
+                      </motion.div> */}
                   {experience.works.map((work, index) => (
                     <>
                       <motion.div
@@ -104,14 +118,6 @@ const Skills = () => {
                         <p className='p-text'><span className='bold-text'>Company:</span> {work.company}</p>
                         <p className='p-text'><span className='bold-text'>Description:</span> {work.desc}</p>
                       </motion.div>
-                      {/* <ReactTooltip
-                        id={work.name}
-                        effect='solid'
-                        arrowColor='#fff'
-                        className='skills-tooltip'
-                      >
-                        {work.desc}
-                      </ReactTooltip> */}
                     </>
                   ))}
                 </motion.div>

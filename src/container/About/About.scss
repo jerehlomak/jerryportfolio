@@ -40,3 +40,25 @@
         }
     }
 }
+
+.app__about-header {
+    margin-bottom: 40px;
+    max-width: 1000px;
+    margin: 0rem auto 2rem;
+}
+
+.about-cmp {
+    margin-top: 2rem;
+   
+    padding: 1rem 1.5rem;
+    border: var(--white-color);
+    border-radius: 15px;
+    flex-direction: row;
+    width: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    p {
+        width: 100%;
+        text-align: center;
+    }
+}

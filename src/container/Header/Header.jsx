@@ -18,7 +18,7 @@ const scaleVariants = {
 }
 
 const downloadCVHandler = async () => {
-  const url = 'https://drive.google.com/file/d/1TwPx3URDPIoKz-nm47RRzp3r1hbjGFjY/view?usp=sharing'
+  const url = 'https://drive.google.com/file/d/1MyoXe3tfmDOAc_XlJonDITo5BJRFTELB/view?usp=sharing'
   
   const link = document.createElement('a');
   link.href = url;
@@ -49,7 +49,7 @@ const Header = () => {
           </div>
 
           <div className="tag-cmp app_flex">
-            <p className="p-text">Frontend Dev</p>
+            <p className="p-text">A   Frontend Dev</p>
             <p className="p-text">Backend Dev</p>
             <p className="p-text">Graphics Designer</p> 
           </div>
